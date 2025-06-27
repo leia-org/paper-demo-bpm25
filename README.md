@@ -14,8 +14,7 @@ This repository contains the supplementary material of the paper entitled "A tra
 In order to try the BPM-LEIA, we have develop the following examples that correspond with exercises present in the book **Fundamentals of Business Process Management** [[1]]([README.md#-references).
 
 ### Assessing loan application process (*Exercise 3.2, page 84. Process model solution, page 109.*)
-
-* **[Demo Link](https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCE6KT00UY2V986Y)** to the interview exercise on the _loan application process_. 
+* **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCE6KT00UY2V986Y" target="_blank">Demo Link</a>** to the interview exercise on the _loan application process_. 
 * **Exercise Code**: RMCE6KT00UY2V986Y
 * **Process**: Assessing loan application process
 
@@ -25,7 +24,7 @@ In order to try the BPM-LEIA, we have develop the following examples that corres
 
 ### Order management process (*Example 3.4, solution in Figure 3.6, page 83.*)
 
-* **[Demo Link](https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCEHF59FZAUNSP5O)** to the interview exercise on the _order fulfillment process_. 
+* **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCEHF59FZAUNSP5O" target="_blank">Demo Link</a>** to the interview exercise on the _order fulfillment process_. 
 * **Exercise Code**: RMCEHF59FZAUNSP5O
 * **Process**: Order fulfillment process
 
