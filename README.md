@@ -7,7 +7,7 @@ This repository contains the supplementary material of the paper entitled "A tra
 
 
 ## 🎥 Video
-🔗 Link to the [video](https://bit.ly/leia3) that screencasts and demonstrates the tool. 
+🔗 Link to the [video](https://jedai.short.gy/bpm25-demo) that screencasts and demonstrates the tool. 
 
 
 ## 📝 List of available exercises
