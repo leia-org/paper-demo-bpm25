@@ -7,15 +7,15 @@ This repository contains the supplementary material of the paper entitled "A tra
 
 
 ## 🎥 Video
-🔗 Link to the [video](https://jedai.short.gy/bpm25-demo) that screencasts and demonstrates the tool. 
+🔗 Link to the [video](https://jedai.short.gy/bpm25-video) that screencasts and demonstrates the tool. 
 
 
 ## 📝 List of available exercises
 In order to try the BPM-LEIA, we have develop the following examples that correspond with exercises present in the book **Fundamentals of Business Process Management** [[1]]([README.md#-references).
 
 ### Assessing loan application process (*Exercise 3.2, page 84. Process model solution, page 109.*)
-* **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCE6KT00UY2V986Y" target="_blank">Demo Link</a>** to the interview exercise on the _loan application process_. 
-* **Exercise Code**: RMCE6KT00UY2V986Y
+* **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCFIG25GZ3NKRNUH" target="_blank">Demo Link</a>** to the interview exercise on the _loan application process_. 
+* **Exercise Code**: RMCFIG25GZ3NKRNUH
 * **Process**: Assessing loan application process
 
     ![Assessing loan application process in BPMN](process-exercises/assessing-loan-application/assessing-loan-application-process-model.png)
