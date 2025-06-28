@@ -22,7 +22,7 @@ In order to try the BPM-LEIA, we have develop the following examples that corres
 
     A loan application is approved if it passes two checks: (i) the applicant’s loan risk assessment, done automatically by a system, and (ii) the appraisal of the property for which the loan has been asked, carried out by a property appraiser. The risk assessment requires a credit history check on the applicant, which is performed by a financial officer. Once both the loan risk assessment and the property appraisal have been performed, a loan officer can assess the applicant’s eligibility. If the applicant is not eligible, the application is rejected, otherwise the acceptance pack is prepared and sent to the applicant.
 
-### Order management process (*Example 3.4, solution in Figure 3.6, page 83.*)
+### Order fulfillment process (*Example 3.4, solution in Figure 3.6, page 83.*)
 
 * **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCEHF59FZAUNSP5O" target="_blank">Demo Link</a>** to the interview exercise on the _order fulfillment process_. 
 * **Exercise Code**: RMCEHF59FZAUNSP5O
@@ -31,6 +31,20 @@ In order to try the BPM-LEIA, we have develop the following examples that corres
     ![Order fulfillment process in BPMN](process-exercises/order-fulfillment/order-fulfillment-process-model.PNG)
 
     The order fulfillment process starts whenever a purchase order has been received from a customer. The first activity that is carried out is checking if the product is in stock, otherwise the process completes by rejecting the order. Further, if the product is in stock, the product is requested from the warehouse and the order is  confirmed. Afterwards, the requested product is shipped (after the shipment address is received so that the product can be shipped to the customer) while the invoice is emitted and the payment is received. Afterwards, only when the shipment is completed and the payment has been received, the order is archived and the process completes.
+
+
+
+
+### Order-to-cash process (*Example 3.6, solution in Figure 3.12, page 90.*)
+
+* **<a href="https://leia-workbench-front-v3-a393ff9e36a2.herokuapp.com/?email=_test_b25&code=RMCFPP2K7QUKS58CC" target="_blank">Demo Link</a>** to the interview exercise on the _order-to-cash process_. 
+* **Exercise Code**: RMCFPP2K7QUKS58CC
+* **Process**: Order-to-cash process
+
+    ![Order-to-Cash process in BPMN](process-exercises/order-to-cash/order-to-cash-process-model.PNG)
+
+    The order fulfillment process starts whenever a purchase order has been received from a customer. If the product requested is not in stock, it needs to be manufactured before the order handling can continue. To manufacture a product, the required raw materials have to be ordered. Two preferred suppliers provide different types of raw materials. Depending on the product to be manufactured, raw materials may be ordered from either Supplier 1 or Supplier 2, or from both. Once the raw materials are available, the product can be manufactured and the order can be confirmed. On the other hand, if the product is in stock, it is retrieved from the warehouse before confirming the order. In either case, the process continues normally and the order is  confirmed. Afterwards, the requested product is shipped (after the shipment address is received so that the product can be shipped to the customer) while the invoice is emitted and the payment is received. Afterwards, only when the shipment is completed and the payment has been received, the order is archived and the process completes.
+
 
 ## ✍️ Authors 
 Bedilia Estrada Torres<sup>1</sup>
