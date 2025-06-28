@@ -41,7 +41,7 @@ In order to try the BPM-LEIA, we have develop the following examples that corres
 * **Exercise Code**: RMCFPP2K7QUKS58CC
 * **Process**: Order-to-cash process
 
-    ![Order-to-Cash process in BPMN](process-exercises/order-to-cash/order-to-cash-process-model.PNG)
+    ![Order-to-Cash process in BPMN](process-exercises/order-to-cash/order-to-cash-process-model.png)
 
     The order fulfillment process starts whenever a purchase order has been received from a customer. If the product requested is not in stock, it needs to be manufactured before the order handling can continue. To manufacture a product, the required raw materials have to be ordered. Two preferred suppliers provide different types of raw materials. Depending on the product to be manufactured, raw materials may be ordered from either Supplier 1 or Supplier 2, or from both. Once the raw materials are available, the product can be manufactured and the order can be confirmed. On the other hand, if the product is in stock, it is retrieved from the warehouse before confirming the order. In either case, the process continues normally and the order is  confirmed. Afterwards, the requested product is shipped (after the shipment address is received so that the product can be shipped to the customer) while the invoice is emitted and the payment is received. Afterwards, only when the shipment is completed and the payment has been received, the order is archived and the process completes.
 
